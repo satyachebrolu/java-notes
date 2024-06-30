@@ -10,3 +10,6 @@ sout
 public static void main(String{} args)
 psvm
 ```
+```java
+camel case - starting of every new word should be a capital letter when the variable has more than one word
+```
