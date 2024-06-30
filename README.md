@@ -29,6 +29,19 @@ import java.util.scanner;
 Scanner sc= new Scanner(system.in);
 sc.next*type*();
 ```
+```java
+if(expression) {
+} else{
+}
+```
+```java
+if (expression) {
+} else if(expression) {
+} else{
+}
+```
+
+
 
 
 
