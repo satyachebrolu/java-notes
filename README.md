@@ -54,6 +54,9 @@ if (a>b) {
    max = b;
 }
 ```
+```java
+max = a > b ? a > c ? a : c : b > c ? b : c ;             nested if else statement 
+```
 
 
 
