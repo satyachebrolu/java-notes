@@ -40,7 +40,20 @@ if (expression) {
 } else{
 }
 ```
+```java
+int max=0 can be used when giving condition
+```
+```java
+max = a > b ? a : b ;
 
+this works as
+
+if (a>b) {
+   max = a;
+} else{
+   max = b;
+}
+```
 
 
 
