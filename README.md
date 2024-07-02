@@ -57,6 +57,13 @@ if (a>b) {
 ```java
 max = a > b ? a > c ? a : c : b > c ? b : c ;             nested if else statement 
 ```
+```java
+switch(day i.e any variable) {
+    case 1 :                                        here cases are the values that can be assigned to the variable 
+    System.out.println( "sunday" );                                
+    break;
+    case 2: ..........so on.........
+} 
 
 
 
