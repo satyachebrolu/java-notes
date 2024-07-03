@@ -68,6 +68,14 @@ switch(day i.e any variable) {
     default :                                               for any type of value that can't be assigned to the variable
     System.out.println ("invalid value");
 } 
+```
+```java
+for(int i=0 ;i<=10 ; i++){                                 for loop
+     System.out.println(i);
+}
+```
+
+
 
 
 
