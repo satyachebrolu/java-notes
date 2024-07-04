@@ -73,6 +73,18 @@ switch(day i.e any variable) {
 for(int i=0 ;i<=10 ; i++){                                 for loop
      System.out.println(i);
 }
+
+while( i<=5 ) {
+    System.out.println(i);
+     i++;
+}                                                          WHILE LOOP    
+
+boolean status = false;
+while( !status ) {
+     System.out.println("keep trying");
+     System.out.println("did you get the answer?");
+     status = sc.nextBoolean();
+}
 ```
 
 
