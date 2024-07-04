@@ -85,6 +85,14 @@ while( !status ) {
      System.out.println("did you get the answer?");
      status = sc.nextBoolean();
 }
+
+int i=8                                                   DO-WHILE LOOP (it runs atleast one time before terminating)
+do{
+   System.out.println(i);
+   i++;
+} while (i<=5) ;
+   System.out.println("out of the loop");
+
 ```
 
 
