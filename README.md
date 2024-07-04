@@ -94,6 +94,25 @@ do{
    System.out.println("out of the loop");
 
 ```
+```java
+break statement
+
+while(test expression){                                                  do{
+//codw                                                                   //code
+    if (condition to break) {                                            if (condition to break) {
+     break;                                                               break;
+    }                                                                     }
+//code                                                                   //code
+}      [ BREAKS OUT OF THE BRACKETS TO HERE ]                            while ( test expression );   
+                                                                           [ BREAKS HERE ]
+for ( int ; testExpression; update ) {
+   //code
+   if (condition to break) {
+   break;
+   }
+//code
+}     [ BREAKS HERE ]
+
 
 
 
