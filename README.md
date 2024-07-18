@@ -98,7 +98,7 @@ do{
 break statement
 
 while(test expression){                                                  do{
-//codw                                                                   //code
+//code                                                                   //code
     if (condition to break) {                                            if (condition to break) {
      break;                                                               break;
     }                                                                     }
@@ -112,6 +112,55 @@ for ( int ; testExpression; update ) {
    }
 //code
 }     [ BREAKS HERE ]
+```
+```java
+continue statement
+
+while(test expression){                                                  do{
+//code                                                                    //code
+    if (condition to break) {                                            if (condition to break) {
+     continue; [GOES TO WHILE LINE]                                      continue;
+    }                                                                     }
+//code                                                                   //code
+}                                                                         while ( test expression );   
+                                                                          
+for ( int ; testExpression; update ) {
+   //code
+   if (condition to break) {
+   continue;
+   }
+//code
+}
+```
+```java
+for anything to be printed in a new line type System.out.println(); after the curly brackets of the code
+```
+```java
+label:
+while (testExpression){
+//code
+  while (testExpression){
+   //code
+   if (testExpression){
+    continue label;
+      }
+     //codes
+   }
+   //codes
+}
+```
+```java
+arrays
+
+int age = new int [5];
+System.out.println(age[2]);
+        OR
+int marks[] = {12, 45, 89, 90, 78};   here also size of the array is 4  , so available places are 0, 1, 2, 3, 4.
+
+to find the length of the array you can use
+System.out.println(age.length);
+
+
 
 
 
