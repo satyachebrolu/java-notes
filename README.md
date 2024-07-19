@@ -159,6 +159,15 @@ int marks[] = {12, 45, 89, 90, 78};   here also size of the array is 4  , so ava
 
 to find the length of the array you can use
 System.out.println(age.length);
+```
+```java
+FOR EACH LOOP
+String names[] = { ram, shyam, bheem };
+for (String name : names ) {
+ System.out.println("name is "+ name);
+}
+```
+
 
 
 
